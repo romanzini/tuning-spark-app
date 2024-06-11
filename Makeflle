@@ -1,0 +1,11 @@
+COMPOSE_CMD = docker-compose
+
+down:
+	$(COMPOSE_CMD) down
+
+up:
+	$(COMPOSE_CMD) up -d
+
+restart: down up
+
+.PHONY: down up restart
