@@ -1,6 +1,6 @@
 """
 Spark App: elt-rides-fhvhv-spill
-Author: Luan Moreno
+Author: Rodrigo Romanzini
 
 spark.executor.memoryOverhead
 - memory managed outside the java heap.

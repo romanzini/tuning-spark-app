@@ -1,6 +1,6 @@
 """
 Spark App: yelp-dataset-shuffle-owshq-1
-Author: Luan Moreno
+Author: Rodrigo Romanzini
 
 docker exec -it spark-master /opt/bitnami/spark/bin/spark-submit \
   --master spark://spark-master:7077 \
